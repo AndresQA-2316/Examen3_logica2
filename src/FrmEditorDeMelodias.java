@@ -238,7 +238,6 @@ public class FrmEditorDeMelodias extends JFrame {
             java.net.URL imgURL = getClass().getResource(imagePath);
             if (imgURL != null) {
                 ImageIcon originalIcon = new ImageIcon(imgURL);
-                // Escalar la imagen al tamaño del botón (36x36)
                 Image scaledImage = originalIcon.getImage().getScaledInstance(36, 36, Image.SCALE_SMOOTH);
                 icon = new ImageIcon(scaledImage);
             } else {

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListaLigada {
-    private Nodo cabeza; // Nodo es clase interna privada aquí
+    private Nodo cabeza; 
 
     private class Nodo {
         Nota dato;
@@ -38,7 +38,6 @@ public class ListaLigada {
     }
 
     public void eliminarNota(int indice) {
-        // implementación...
     }
 
     public void limpiar() {
@@ -46,6 +45,5 @@ public class ListaLigada {
     }
 
     public void limpiarNotas() {
-        // Implement logic to clear the linked list
     }
 }

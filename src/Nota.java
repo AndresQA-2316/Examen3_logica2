@@ -1,11 +1,10 @@
 
 public class Nota {
-    public String nota;   // Asegúrate de que el nombre coincida con el JSON
-    public String figura;  // Asegúrate de que el nombre coincida con el JSON
+    public String nota;   
+    public String figura; 
     public int octava; 
 
-    public Nota() {}  // Constructor sin argumentos necesario para Jackson
-
+    public Nota() {} 
     public Nota(String nota, String figura, int octava) {
         this.nota = nota;
         this.figura = figura;
